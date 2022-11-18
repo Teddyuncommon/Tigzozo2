@@ -1,0 +1,287 @@
+*{
+    margin:0 ;
+    padding: 0;
+   
+    font-family: josefin Sans;
+}
+:root{
+ /*  --primary-color:#edf2fc;
+  --secondary-color:#212121; */
+  --primary-color:#000106;
+  --secondary-color:#fff;
+}
+.hero-sect{
+    padding: 40px 100px;
+}
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+    font-family: josefin Sans;
+}
+.btn{
+    border: 5px solid rgb(127, 0, 136);
+}
+button{
+    background-color: rgb(127, 0, 136) ;
+    color:var(--primary-color);
+    border: none;
+   padding: 10px 20px;
+    font-size: 15px;
+    transform: 0.4s;
+    
+}
+button{
+    transition: scale(1.2);
+}
+.container1{
+    padding: 0px 120px;
+    position: relative;
+    top: 200px;
+    right: 460px;
+}
+span{
+   color:  rgb(127, 0, 136); 
+}
+.col-md-4 h1{
+    margin-top: 120px;
+}
+
+.pic-1{
+    margin-top: 70px;
+}
+.pic-3{
+    margin-top: 70px;
+}
+.icons{
+    margin-top: 30px;
+}
+.col-md-2 {
+    gap:50px ;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+  }
+  .aboutPics {
+    padding: 5px 50px;
+    width: 370px;
+    height: 300px;
+  }
+  .about .aboutTextLeft{
+    font-size: 18px;
+    padding: 0px 50px 20px;
+  }
+  .Video{
+    background-image: url(../images/about3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 430px;
+    height: 310px;
+    margin: 25px 90px 0px 0px;
+    position: relative;
+  }
+  
+  .ytube-play{
+  position: relative;
+  bottom: 55.9%;
+  left: 40%;
+   
+   
+  
+  }
+  
+  
+  .aboutTextRight{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 20px 0px 0px;
+   
+    
+  }
+ .btn3{
+    padding: 10px 20px;
+    width: 200px;
+ }
+  .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+  }
+  .teacher{
+    position: relative;
+    top: 70px;
+  }
+  .service1{
+    background-image: url(../images/services1.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .service3{
+    background-image: url(../images/services2.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+   
+  }
+  .service2{
+    background-color: rgba(116, 34, 150, 1);
+    height: 600px;
+    width: 100%;
+  
+    
+  }
+  .servInfo{
+    padding: 40px 100px;
+    height: 100vh;
+  }
+  .servInfo .container{
+    gap: 20px;
+  }
+  .servList li{
+    color:var(--primary-color);
+  
+    line-height: 48.9px;
+  }
+  
+  
+  .servoverlay1 , .servoverlay2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .servoverlay1 h6 , .servoverlay2 h6 {
+    color:var(--primary-color);
+    font-size: 26px;
+   text-align: center;
+   padding-right: 90px;
+  
+  }
+
+  .container h5{
+    font-weight: bold;
+  }
+  .container h6{
+    font-weight: bold;
+    color: white;
+    
+  }
+  .cancelIcon{
+  
+    height: 35px;
+  }
+  .iconbox{
+    height: 60px;
+    width: 60px;
+    background-color:rgba(229, 229, 229, 1) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 83.2%;
+  
+  
+  }
+  ol{
+    position: relative;
+    top: 40px;
+  } 
+
+  .Reviews p{
+    font-weight: 350;
+  }
+  
+  .Reviews img{
+      width: 450px;
+  }
+  .miranda{
+    position: relative;
+    bottom: 70px;
+  }
+  .miranda img{
+    height: 350px;
+  }
+  .miranda h6{
+    font-weight: 600;
+  }
+  .tendai h6{
+   font-weight: 600;
+  }
+
+  .header span{
+    font-family: great vibes;
+    color: black;
+    font-size: 45px;
+    font-weight: lighter;
+ }
+ .header{
+   text-align: center;
+ }
+ .header h3{
+   font-weight: 900;
+  
+ text-shadow: 1px rgba(0, 0, 0, 1);
+ }
+ .socPics{
+   padding: 0px 120px;
+   position: relative;
+   left: 200px;
+   
+ }
+ 
+ 
+ .smile{
+   padding-top:180px ;
+ }
+ .family{
+   padding-top:180px ;
+ }
+ .waterfall{
+   padding-top:180px ;
+ }
+ .socTag{
+   margin: 50px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .social{
+   padding: 50px 30px;
+ }
+ 
+ .footer{
+    background-color: rgba(116, 34, 150, 1);
+    width: 100%;
+    height: 40vh;
+    padding: 40px;
+  }
+  .footerIcon{
+    background-color: white;
+    height: 60px;
+  }
+  .footerInfo{
+    display: flex;
+    color:var(--primary-color);
+    gap: 140px;
+    line-height: 35px;
+   
+  }
+   
+    
+  
